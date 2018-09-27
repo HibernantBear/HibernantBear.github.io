@@ -1,0 +1,28 @@
+[full-container]{
+    width: 100%;
+    height: 100%;
+}
+
+[flex-container]{
+    display: -webkit-flex;
+    display: flex;
+}
+
+[flex-column-nowrap]{
+    flex-flow: column nowrap;
+}
+
+[flex-center-all]{
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+body>p{
+    text-decoration: underline;
+}
+
+body>p:hover{
+    color: #ff0000;
+}
